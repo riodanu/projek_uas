@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css1?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(59, 47, 47);
+}
+   
+h2{
+text-align: center;
+color: #007bff;
+}
+
+#app-login{
+    width: 500px;
+    margin: 5% auto;
+    padding: 20px; border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+#app-login input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2%;
+}
+#app-login input[type="submit"] {
+width: 30%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+#app-login input[type="submit"]:hover {
+     background-color: #ff6600;
+}
+@media (max-width:400px) {
+    .login-container{
+        width: 80%;
+    }
+}
